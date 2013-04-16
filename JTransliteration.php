@@ -1,7 +1,7 @@
 <?php
 /**
  * 
- *	Static Class for Transliteration
+ *  Static Class for Transliteration
  *
  *  Simply encapsulates the drupal transliteration module : http://drupal.org/project/transliteration  version 7.x-3.1
  *
