@@ -6,8 +6,7 @@
  *  Simply encapsulates the drupal transliteration module : http://drupal.org/project/transliteration  version 7.x-3.1
  *
  * 
- * @package JotForm_Utils
- * @copyright Copyright (c) 2009, Interlogy LLC
+ * @copyleft!
  */
 
 class JTransliteration{
@@ -204,6 +203,7 @@ private static function _transliteration_replace($ord, $unknown = '?', $langcode
 
   if (!isset($langcode)) {
     global $language;
+    
     $langcode = $language->language;
   }
 
