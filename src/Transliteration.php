@@ -1,6 +1,6 @@
 <?php
 
-namespace \Orthosie\Unicode;
+namespace Orthosie\Unicode;
 
 /**
  * 
@@ -205,9 +205,9 @@ class Transliteration {
 	  static $map = array();
 
 	  if (!isset($langcode)) {
-	    global $language;
+	    //global $language;
 	    
-	    $langcode = $language->language;
+	    //$langcode = $language->language;
 	  }
 
 	  $bank = $ord >> 8;
